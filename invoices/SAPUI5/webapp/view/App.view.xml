@@ -1,0 +1,21 @@
+<mvc:View controllerName="lazoft.SAPUI5.controller.App"
+          id            ="mainView" 
+          xmlns         ="sap.m" 
+          xmlns:mvc     ="sap.ui.core.mvc">
+          <Button id   ="btnhello"
+                  text ="Di hola"
+                  press=".onSaludar"></Button>
+          <Button id   ="btnhello2"
+                  text ="{i18n>showHelloButtomText}"
+                  press=".onSaludar2"></Button>
+          <!--<Button id   ="btnhello2"
+                  text ="Say hello"
+                  press=".onSaludar2"></Button>-->
+          <Input id             ="_IDGenInput" 
+                 value          ="{/recipient/name}"
+                 description    ="Hola {/recipient/name}"
+                 valueLiveUpdate="true"
+                 width          ="30%"></Input>
+    <!--<Text id   ="welcomeText" 
+          text ="Hola a to2"></Text>-->
+</mvc:View>
