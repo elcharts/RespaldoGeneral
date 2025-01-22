@@ -1,0 +1,6 @@
+<mvc:View
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m"
+controllerName="lazoft.practica5.controller.App">
+<Text id="_IDGenText" text="Hola a to2 desde App.view.xml"></Text>
+</mvc:View>

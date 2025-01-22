@@ -1,12 +1,21 @@
 {
-    "folders": [
-        {
-            "name": "projects",
-            "path": "."
-        }//,
-        //{
-       //     "name": "invoices",
-       //     "path": "invoices"
-       // }
-    ]
+  "folders": [
+      {
+          "name": "invoices",
+          "path": "./invoices"
+      },
+      {
+          "name": "Practica5_invoices",
+          "path": "./Practica5_invoices"
+      }
+  ]
 }
+//======================================================
+// {
+//     "folders": [
+//         {
+//             "name": "projects",
+//             "path": "."
+//         }
+//     ]
+// }
