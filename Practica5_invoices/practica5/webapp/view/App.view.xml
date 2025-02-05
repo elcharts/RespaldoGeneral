@@ -2,5 +2,35 @@
 xmlns:mvc="sap.ui.core.mvc"
 xmlns="sap.m"
 controllerName="lazoft.practica5.controller.App">
-<Text id="_IDGenText" text="Hola a to2 desde App.view.xml"></Text>
+<Button id   ="_IDGenButton" 
+        text ="{i18n>buttonSayHello}" 
+        press=".onShowHello" />
+<Input id             ="_IDGenInput" 
+       value          ="{/recipient/name}"
+       description    ="Hola {/recipient/name}" 
+       valueLiveUpdate="true"
+       width          ="45%"
+ />
 </mvc:View>
+<!-- ===================================================== -->
+<!-- <mvc:View
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m"
+controllerName="lazoft.practica5.controller.App">
+<Button id   ="_IDGenButton" 
+        text ="Di hola"
+        press=".onShowHello" />
+<Input id             ="_IDGenInput" 
+       value          ="{/recipient/name}"
+       description    ="Hola {/recipient/name}"
+       valueLiveUpdate="true"
+       width          ="45%"
+ />
+</mvc:View> -->
+<!-- =================================================== -->
+<!-- <mvc:View
+xmlns:mvc="sap.ui.core.mvc"
+xmlns="sap.m"
+controllerName="lazoft.practica5.controller.App">
+<Text id="_IDGenText" text="Hola a to2 desde App.view.xml"></Text>
+</mvc:View> -->

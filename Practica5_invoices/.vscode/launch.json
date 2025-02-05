@@ -5,8 +5,8 @@
       "name": "practica5-config1",
       "type": "node",
       "request": "launch",
-      "cwd": "${workspaceFolder}/Practica5_invoices/practica5",
-      // "cwd": "${workspaceFolder}/practica5",
+      // "cwd": "${workspaceFolder}/Practica5_invoices/practica5",
+      "cwd": "${workspaceFolder}/practica5",
       "runtimeExecutable": "npx",
       "windows": {
         "runtimeExecutable": "npx.cmd"
